@@ -41,7 +41,37 @@ h1 {
     margin: 0 auto;
 }
 
+h2 {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content:center;
+
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.coluna {
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #textoFooter {
+    color: white;
     height: 60px;
     background-color: #6e351b;
     display: flex;
