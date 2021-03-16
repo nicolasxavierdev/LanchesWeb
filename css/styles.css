@@ -36,12 +36,9 @@ h1 {
 
 #conteudo {
     background-color: #ffc93e;
-    height: 960px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 960px;
+    height: 650px;
+    margin: 0 auto;
 }
 
 #textoFooter {
