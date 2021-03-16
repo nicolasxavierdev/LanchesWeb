@@ -17,10 +17,29 @@ h1 {
     align-items: center;
 }
 
+#menu-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.Lmenu a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Lmenu {
+    padding: 10px;
+    display: inline;
+    list-style: none;   
+}
+
 #conteudo {
     background-color: #ffc93e;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 #textoFooter {
