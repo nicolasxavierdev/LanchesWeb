@@ -5,74 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanche Web</title>
+    <title>Lanches Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Vollkorn & display = swap" rel="stylesheet ">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <main>
-        <header id="cabeçalho">
-            <h1>
-                Lanche Web
-            </h1>
-            <div id="menu-container">
-                <ul>
-                    <li class="Lmenu"><a href="">Home</a></li>
-                    <li class="Lmenu"><a href="">Produtos</a></li>
-                    <li class="Lmenu"><a href="">Sobre nós</a></li>
-                    <li class="Lmenu"><a href="">Contato</a></li>
-                </ul>
-            </div>
-        </header>
-        <section id="conteudo">
-            <h2>Aqui você tem os melhores lanches da região</h2>
-            <div id="colunas">
-                <div class="coluna">
-                    <h3>X-bacon</h3>
-                    <img src="imagem/lanches/lanche1.jpeg">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui autem atque laborum soluta
-                        mollitia. Voluptatem quibusdam expedita inventore dolor? Assumenda omnis id alias mollitia
-                        exercitationem doloribus necessitatibus dolor sit sapiente.
-                    </p>
-                </div>
-                <div class="coluna">
-                    <h3>Chicken</h3>
-                    <img src="imagem/lanches/lanche2.jpg">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, autem culpa! Corporis quia
-                        veniam quidem modi cum iste minus ad molestiae perferendis reprehenderit. Animi non debitis, a
-                        culpa ab dolor.
-                    </p>
-                </div>
-                <div class="coluna">
-                    <h3>X-Monstro</h3>
-                    <img src="imagem/lanches/lanche3.jpeg">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore fugiat reprehenderit,
-                        dicta ad, iusto ea, quae iure adipisci architecto minima maiores. Ullam repellendus deleniti
-                        asperiores quam voluptate dolores veritatis?
-                    </p>
-                </div>
-                <div class="coluna">
-                    <h3>Misto Quente</h3>
-                    <img src="imagem/lanches/lanche4.jpg">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati recusandae
-                        expedita saepe corrupti esse magni sit, mollitia provident? Necessitatibus aut sint eaque iusto
-                        maiores quam aliquid recusandae delectus quas.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div id="textoFooter">
-                <span>
-                    Lanche Web &copy; 2021
-                </span>
-            </div>
-        </footer>
-    </main>
-</body>
+    <div class="estrutura">
 
+        <header class="header">
+            <a href="#" class="logo"><img src="imagem/lanches/lanches-web.jpg"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <div>
+                <h2>Aqui você tem os melhores lanches da região</h2>
+            </div>
+
+            <div class="coluna">
+                <h3>X-Bacon</h3>
+                <br>
+                <img src="imagem/lanches/x-bacon.jpeg" alt="X-Bacon" class="foto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae doloremque accusamus
+                    obcaecati expedita temporibus quo cupiditate nam natus ut veniam accusantium facere ex beatae culpa,
+                    eius rem animi blanditiis!</p>
+            </div>
+
+            <div class="coluna">
+                <h3>Chicken</h3>
+                <br>
+                <img src="imagem/lanches/chicken.jpg" alt="Chicken" class="foto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae doloremque accusamus
+                    obcaecati expedita temporibus quo cupiditate nam natus ut veniam accusantium facere ex beatae culpa,
+                    eius rem animi blanditiis!</p>
+            </div>
+
+            <div class="coluna">
+                <h3>X-Monstro</h3>
+                <br>
+                <img src="imagem/lanches/x-monstro.jpeg" alt="X-Monstro" class="foto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae doloremque accusamus
+                    obcaecati expedita temporibus quo cupiditate nam natus ut veniam accusantium facere ex beatae culpa,
+                    eius rem animi blanditiis!</p>
+            </div>
+
+            <div class="coluna">
+                <h3>Misto Quente</h3>
+                <br>
+                <img src="imagem/lanches/misto-quente.jpg" alt="Misto Quente" class="foto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae doloremque accusamus
+                    obcaecati expedita temporibus quo cupiditate nam natus ut veniam accusantium facere ex beatae culpa,
+                    eius rem animi blanditiis!</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Lanche Web &copy; 2021 . Alguns direitos reservados.</p>
+        </footer>
+    </div>
+</body>
 </html>
