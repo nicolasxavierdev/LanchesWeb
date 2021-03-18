@@ -4,7 +4,7 @@ body, ul, li, p, h2, h3 {
 }
 
 body {
-    font-family: "Vollkorn", Georgia, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li {
@@ -71,15 +71,19 @@ h2{
 
 .content {
     grid-area: content;
-    background-color: #d88831;
+    background-color: white;
     margin: 0 auto;
     padding: 30px;
 }
+
+.linha-colunas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    column-gap: 20px;
+}
+
 .coluna  {
-    width: 200px;
     height: 600px;
-    margin: 10px;
-    display: inline-block;
 }
 
 h3 {
