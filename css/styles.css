@@ -99,6 +99,26 @@ p {
     text-align: left;
 }
 
+.campos {
+    width: 500px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+button {
+    color: white;
+    background-color: crimson;
+    height: 30px;
+}
+
 /* FOOTER */
 .footer {
     grid-area: footer;
