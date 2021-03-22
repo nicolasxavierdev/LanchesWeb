@@ -13,10 +13,18 @@
 
 // concatenção
 
-let nome = "José";
+// let nome = "José";
 
-let sobrenome = "Maria";
+// let sobrenome = "Maria";
 
-let idade = 34;
+// let idade = 34;
 
-console.log (`Ola! Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos`);
+// console.log(`Ola! Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos`);
+
+// soma de variaveis, string + inteiro
+
+let n1 = "00";
+
+let n2 = 0;
+
+console.log(n1 + n2);
