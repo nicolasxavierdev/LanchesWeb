@@ -23,8 +23,8 @@
 
 // soma de variaveis, string + inteiro
 
-let n1 = "00";
+let n1 = 25;
 
-let n2 = 0;
+let n2 = 25;
 
 console.log(n1 + n2);
