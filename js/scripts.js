@@ -4,9 +4,9 @@ let name = "Nícolas";
 
 let number = 10;
 
-let boolean = true;
+let boolean1 = true;
 
-let boolean = false;
+let boolean2 = false;
 
 let float = 1.5;
 
