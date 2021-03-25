@@ -31,12 +31,11 @@
 
 // console.log(`A soma de ${n1} + ${n2} é igual a ${res}`);
 
-let A = 10;
+let nota1 = 5;
+let nota2 = 6;
+let nota3 = 8;
+let nota4 = 7;
 
-let B = 20;
+let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-A < A + B 
-B < A - B 
-A < A - B
-
-console.log()
+console.log(media)
