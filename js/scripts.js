@@ -38,4 +38,8 @@ let nota4 = 7;
 
 let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-console.log(media)
+if (media > 6){
+    console.log("Aprovado, parabéns!!");
+}else{
+    console.log("Reprovado");
+}
