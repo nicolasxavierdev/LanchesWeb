@@ -48,8 +48,8 @@
 
 let lista = ['maçã','uva','morango','limão','abacaxi'];
 
-console.log(lista[0]);
-console.log(lista[1]);
+//console.log(lista[0]);
+//console.log(lista[1]);
 console.log(lista[2]);
-console.log(lista[3]);
-console.log(lista[4]);
+//console.log(lista[3]);
+//console.log(lista[4]);
