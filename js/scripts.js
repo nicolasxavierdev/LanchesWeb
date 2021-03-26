@@ -46,10 +46,21 @@
    // console.log(`Média ${media}, aluno reprovado.`);
 //}
 
-let lista = ['maçã','uva','morango','limão','abacaxi'];
+//let lista = ['maçã','uva','morango','limão','abacaxi'];
 
-console.log(lista[0]);
+//console.log(lista[0]);
 //console.log(lista[1]);
 //console.log(lista[2]);
 //console.log(lista[3]);
-console.log(lista[4]);
+//console.log(lista[4]);
+
+let listaJson = {
+    marca: 'Volkswagen',
+    modelo: 'Amarok Extreme AT 4×4',
+    cor: 'Preto',
+    motor: 'CD 3.0 V6 TDI',
+    ano: '2021',
+    combustível: 'Diesel'
+}
+
+console.log(`Meu carro é um ${listaJson.marca}, ano ${listaJson.ano}, modelo ${listaJson.modelo}, cor ${listaJson.cor}, combustível ${listaJson.combustível}`);
