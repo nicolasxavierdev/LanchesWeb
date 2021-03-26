@@ -31,17 +31,25 @@
 
 // console.log(`A soma de ${n1} + ${n2} é igual a ${res}`);
 
-let nota1 = 5;
-let nota2 = 6;
-let nota3 = 6;
-let nota4 = 7;
+//let nota1 = 5;
+//let nota2 = 6;
+//let nota3 = 6;
+//let nota4 = 7;
 
-let media = (nota1 + nota2 + nota3 + nota4) / 4;
+//let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-if (media >= 6){
-    console.log(`Média ${media}, parabéns! Aluno aprovado.`);
-}else if(media > 5 && media < 5.9){
-    console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
-}else{
-    console.log(`Média ${media}, aluno reprovado.`);
-}
+//if (media >= 6){
+   // console.log(`Média ${media}, parabéns! Aluno aprovado.`);
+//}else if(media > 5 && media < 5.9){
+   // console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
+//}else{
+   // console.log(`Média ${media}, aluno reprovado.`);
+//}
+
+let lista = ['maçã','uva','morango','limão','abacaxi'];
+
+console.log(lista[0]);
+console.log(lista[1]);
+console.log(lista[2]);
+console.log(lista[3]);
+console.log(lista[4]);
