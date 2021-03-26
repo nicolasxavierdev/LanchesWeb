@@ -73,15 +73,7 @@
 //Algoritmo 17
 let notas = [5, 6, 6, 7];
 
-console.log(notas.length);
-
-console.log(notas);
-
-let length = 4
-
-let media = (notas[0]+ notas[1] + notas[2] + notas[3]) / length;
-
-console.log(media);
+let media = (notas[0]+ notas[1] + notas[2] + notas[3]) / notas.length;
 
 if (media >= 6){
     console.log(`Média ${media}, parabéns! Aluno aprovado.`);
