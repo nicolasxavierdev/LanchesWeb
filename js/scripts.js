@@ -48,11 +48,12 @@
 
 //algoritmo 14
 
-//let lista = ['maçã','uva','morango','limão','abacaxi'];
+let lista = ['maçã','uva','morango','limão','abacaxi'];
 
+//Algoritmo 14
 //console.log(lista[0]);
 //console.log(lista[1]);
-//console.log(lista[2]);
+console.log(lista[2]);
 //console.log(lista[3]);
 //console.log(lista[4]);
 
@@ -69,6 +70,6 @@
 
 
 //Algoritmo 17
-let notas = [5, 6, 6, 7];
+//let notas = [5, 6, 6, 7];
 
-console.log(notas.length);
+//console.log(notas.length);
