@@ -50,12 +50,13 @@
 
 let lista = ['maçã','uva','morango','limão','abacaxi'];
 
-//Algoritmo 14
-//console.log(lista[0]);
+//Algoritmo 15
+console.log(lista[0]);
 //console.log(lista[1]);
-console.log(lista[2]);
+//console.log(lista[2]);
 //console.log(lista[3]);
-//console.log(lista[4]);
+console.log(lista[4]);
+
 
 //let listaJson = {
   //  marca: 'Volkswagen',
@@ -72,4 +73,13 @@ console.log(lista[2]);
 //Algoritmo 17
 //let notas = [5, 6, 6, 7];
 
-//console.log(notas.length);
+//let media = (nota1 + nota2 + nota3 + nota4) / length;
+
+//if (media >= 6){
+   // console.log(`Média ${media}, parabéns! Aluno aprovado.`);
+//}else if(media > 5 && media < 5.9){
+   // console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
+//}else{
+   // console.log(`Média ${media}, aluno reprovado.`);
+//}
+
