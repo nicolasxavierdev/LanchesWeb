@@ -91,8 +91,21 @@ for (let a = 0; a < nomes.length; a++) {
 } */
 
 // Algoritmo 19
-let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
+/* let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
 
-nomes.forEach(function(nomes) {
-   console.log(`Ola meu nome é ${nomes}`);
-})
+nomes.forEach(function (nome) {
+   console.log(`Ola meu nome é ${nome}`);
+}) */
+
+// Algoritmo 20
+let carro = [
+   {
+      marca: 'Volkswagen',
+      modelo: 'Amarok Extreme AT 4×4',
+      ano: '2021',
+      km: '50.000 km'
+   }
+]
+carro.forEach(function (tipo) {
+   console.log(`A marca do carro é ${tipo.marca}, modelo ${tipo.modelo}, ano ${tipo.ano}, e sua quilometragem é de ${tipo.km}`);
+});
