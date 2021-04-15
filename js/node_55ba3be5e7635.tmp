@@ -83,10 +83,9 @@ if (media >= 6){
    console.log(`Média ${media}, aluno reprovado.`);
 } */
 
-// Algoritmo 18
+//
 let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
 
-for(let a = 0; a < nomes.length; a++) {
-   console.log(`Ola meu nome é ${nomes[0]}`);
+for(let a = 0; a < nomes.length; ) {
+   console.log(`Ola meu nome é ${nomes}`);
 }
-
