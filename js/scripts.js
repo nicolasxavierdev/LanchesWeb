@@ -84,8 +84,15 @@ if (media >= 6){
 } */
 
 // Algoritmo 018
-let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
+/* let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
 
 for (let a = 0; a < nomes.length; a++) {
    console.log(`Ola meu nome é ${nomes[a]}`);
-}
+} */
+
+// Algoritmo 19
+let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
+
+nomes.forEach(function(nomes) {
+   console.log(`Ola meu nome é ${nomes}`);
+})
