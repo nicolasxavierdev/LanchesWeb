@@ -102,10 +102,34 @@ let carro = [
    {
       marca: 'Volkswagen',
       modelo: 'Amarok Extreme AT 4×4',
-      ano: '2021',
-      km: '50.000 km'
-   }
+      ano: 2021,
+      km: 50.012
+   },
+   {
+      marca: 'Fiat',
+      modelo: 'Uno',
+      ano: 1995,
+      km: 210.125
+   },
+   {
+      marca: 'Ford',
+      modelo: 'Corsa Sedan',
+      ano: 2000,
+      km: 110.065
+   },
+   {
+      marca: 'Ford',
+      modelo: 'Camaro',
+      ano: 2021,
+      km: 75.023
+   },
+   {
+      marca: 'Honda',
+      modelo: 'Civic',
+      ano: 2021,
+      km: 85.013
+   },
 ]
 carro.forEach(function (tipo) {
-   console.log(`A marca do carro é ${tipo.marca}, modelo ${tipo.modelo}, ano ${tipo.ano}, e sua quilometragem é de ${tipo.km}`);
+   console.log(`A marca do carro é ${tipo.marca}, modelo ${tipo.modelo}, ano ${tipo.ano}, e sua quilometragem é de ${tipo.km}km`);
 });
