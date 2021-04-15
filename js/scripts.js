@@ -84,9 +84,8 @@ if (media >= 6){
 } */
 
 // Algoritmo 18
-let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
+ let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
 
 for(let a = 0; a < nomes.length; a++) {
-   console.log(`Ola meu nome é ${nomes[0]}`);
-}
-
+   console.log(`Ola meu nome é ${nomes[a]}`);
+} 
