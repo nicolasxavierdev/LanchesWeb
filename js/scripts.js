@@ -39,11 +39,11 @@
 //let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
 //if (media >= 6){
-   // console.log(`Média ${media}, parabéns! Aluno aprovado.`);
+// console.log(`Média ${media}, parabéns! Aluno aprovado.`);
 //}else if(media > 5 && media < 5.9){
-   // console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
+// console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
 //}else{
-   // console.log(`Média ${media}, aluno reprovado.`);
+// console.log(`Média ${media}, aluno reprovado.`);
 //}
 
 //algoritmo 14
@@ -59,12 +59,12 @@
 
 
 //let listaJson = {
-  //  marca: 'Volkswagen',
-  //  modelo: 'Amarok Extreme AT 4×4',
-  //  cor: 'Preto',
-  //  motor: 'CD 3.0 V6 TDI',
-  //  ano: '2021',
-  //  combustível: 'Diesel'
+//  marca: 'Volkswagen',
+//  modelo: 'Amarok Extreme AT 4×4',
+//  cor: 'Preto',
+//  motor: 'CD 3.0 V6 TDI',
+//  ano: '2021',
+//  combustível: 'Diesel'
 //}
 
 //console.log(`Meu carro é um ${listaJson.marca}, ano ${listaJson.ano}, modelo ${listaJson.modelo}, cor ${listaJson.cor}, combustível ${listaJson.combustível}`);
@@ -83,9 +83,9 @@ if (media >= 6){
    console.log(`Média ${media}, aluno reprovado.`);
 } */
 
-// Algoritmo 18
- let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
+// Algoritmo 018
+let nomes = ['Nícola', 'Beatriz', 'Junior', 'Alessandra', 'Lucas', 'Nicollas', 'Gustavo', 'Luiz', 'Roseli', 'Diandra']
 
-for(let a = 0; a < nomes.length; a++) {
+for (let a = 0; a < nomes.length; a++) {
    console.log(`Ola meu nome é ${nomes[a]}`);
-} 
+}
