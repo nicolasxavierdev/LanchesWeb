@@ -492,3 +492,16 @@ let listaAtl = carros.map(function(carro){
 })
 
 console.log(listaAtl);
+
+let listaAno = carros.filter(function(itemAno){
+   return itemAno.ano >= 2018
+})
+
+console.log(listaAno);
+
+let listAno = carros.filter(function(itAno){
+   return itAno.ano < 2018
+})
+
+console.log(listAno);
+
