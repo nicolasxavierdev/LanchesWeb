@@ -204,7 +204,7 @@ let logo = carros.filter(function(marca){
 console.log(logo); */
 
 // Algoritmo 22
-let carros = [
+/* let carros = [
    {
       marca: 'Volkswagem',
       ano: 1998,
@@ -277,7 +277,76 @@ let fordPreto = carros.filter(function (cPreto) {
 })
 console.log(fordPreto);
 
-let carroKm = carros.filter(function(cKm){
+let carroKm = carros.filter(function (cKm) {
    return cKm.marca == 'Ford' && cKm.km < 160000
 })
-console.log(carroKm);
+console.log(carroKm); */
+
+// Algoritmo 23
+let carros = [
+   {
+      marca: 'Volkswagem',
+      ano: 1998,
+      cor: 'vermelho',
+      km: 100000
+   },
+   {
+      marca: 'Fiat',
+      ano: 2015,
+      cor: 'cinza',
+      km: 98000
+   },
+   {
+      marca: 'Volkswagem',
+      ano: 2012,
+      cor: 'branco',
+      km: 80500
+   },
+   {
+      marca: 'GM',
+      ano: 2020,
+      cor: 'branco',
+      km: 123.550
+   },
+   {
+      marca: 'Ford',
+      ano: 2010,
+      cor: 'preto',
+      km: 150000
+   },
+   {
+      marca: 'Fiat',
+      ano: 1997,
+      cor: 'branco',
+      km: 280000
+   },
+   {
+      marca: 'Volkswagem',
+      ano: 2020,
+      cor: 'preto',
+      km: 100000
+   },
+   {
+      marca: 'Ford',
+      ano: 2009,
+      cor: 'cinza',
+      km: 130.450
+   },
+   {
+      marca: 'Ford',
+      ano: 2008,
+      cor: 'vermelho',
+      km: 160.881
+   },
+   {
+      marca: 'GM',
+      ano: 2018,
+      cor: 'preto',
+      km: 190000
+   }
+];
+
+let carroP = carros.filter(function (cP) {
+   return cP.cor == 'preto'
+})
+console.log(carroP);
