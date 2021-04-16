@@ -268,7 +268,14 @@ mostrarCarros() */
 
 
 //Funções 2
-function mostrarNomeIdade(nome, idade){
+/* function mostrarNomeIdade(nome, idade){
    console.log(`Ola! Meu nome é ${nome} e tenho ${idade} anos de idade.`);
 }
-mostrarNomeIdade('Nícolas', 27)
+mostrarNomeIdade('Nícolas', 27) */
+
+
+//Funções 3
+function IMC (peso, altura) {
+   console.log(peso / (altura * altura));
+}
+IMC()
