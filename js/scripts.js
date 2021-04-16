@@ -275,7 +275,8 @@ mostrarNomeIdade('Nícolas', 27) */
 
 
 //Funções 3
-function IMC (peso, altura) {
-   console.log(peso / (altura * altura));
+function calcular(peso, altura) {
+   let valor = peso / (altura * altura)
+   console.log(valor);
 }
-IMC()
+calcular()
