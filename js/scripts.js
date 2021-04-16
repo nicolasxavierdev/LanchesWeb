@@ -283,27 +283,14 @@ calcular() */
 
 
 //Funções 4
-/* carros.push(
-   {
-      marca: 'Renault',
-      ano: 2000,
-      cor: 'cinza',
-      km: 200000
-   }
-)
-
-console.log(carros); */
-
-
-//Funções 5
-carros = [
-   ...carros,
-   {
-      marca: 'Dodge',
-      ano: 2021,
-      cor: 'preto',
-      km: 10000
-   }
-]
-
-console.log(carros);
+function adicionarCarro(carro){
+   carros.push(carro)
+      console.log(carros); 
+ 
+}
+adicionarCarro({
+   marca: 'Renault',
+   ano: 2000,
+   cor: 'cinza',
+   km: 200000
+})
