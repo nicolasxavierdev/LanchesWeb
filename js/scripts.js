@@ -134,8 +134,9 @@ carro.forEach(function (tipo) {
    console.log(`A marca do carro é ${tipo.marca}, modelo ${tipo.modelo}, ano ${tipo.ano}, e sua quilometragem é de ${tipo.km}km`);
 }); */
 
+
 // Algoritmo 21
-/* let carros = [
+ let carros = [
    {
       marca: 'Volkswagem',
       ano: 1998,
@@ -198,76 +199,14 @@ carro.forEach(function (tipo) {
    }
 ];
 
-let logo = carros.filter(function(marca){
+/* let logo = carros.filter(function(marca){
    return marca.marca == 'Volkswagem'
 })
-console.log(logo); */
+console.log(logo); */ 
+
 
 // Algoritmo 22
-/* let carros = [
-   {
-      marca: 'Volkswagem',
-      ano: 1998,
-      cor: 'vermelho',
-      km: 100000
-   },
-   {
-      marca: 'Fiat',
-      ano: 2015,
-      cor: 'cinza',
-      km: 98000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2012,
-      cor: 'branco',
-      km: 80500
-   },
-   {
-      marca: 'GM',
-      ano: 2020,
-      cor: 'branco',
-      km: 123.550
-   },
-   {
-      marca: 'Ford',
-      ano: 2010,
-      cor: 'preto',
-      km: 150000
-   },
-   {
-      marca: 'Fiat',
-      ano: 1997,
-      cor: 'branco',
-      km: 280000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2020,
-      cor: 'preto',
-      km: 100000
-   },
-   {
-      marca: 'Ford',
-      ano: 2009,
-      cor: 'cinza',
-      km: 130.450
-   },
-   {
-      marca: 'Ford',
-      ano: 2008,
-      cor: 'vermelho',
-      km: 160.881
-   },
-   {
-      marca: 'GM',
-      ano: 2018,
-      cor: 'preto',
-      km: 190000
-   }
-];
-
-let carroF = carros.filter(function (fM) {
+/* let carroF = carros.filter(function (fM) {
    return fM.marca == 'Ford'
 })
 console.log(carroF);
@@ -280,211 +219,25 @@ console.log(fordPreto);
 let carroKm = carros.filter(function (cKm) {
    return cKm.marca == 'Ford' && cKm.km < 160000
 })
-console.log(carroKm); */
+console.log(carroKm); */ 
+
 
 // Algoritmo 23
-/* let carros = [
-   {
-      marca: 'Volkswagem',
-      ano: 1998,
-      cor: 'vermelho',
-      km: 100000
-   },
-   {
-      marca: 'Fiat',
-      ano: 2015,
-      cor: 'cinza',
-      km: 98000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2012,
-      cor: 'branco',
-      km: 80500
-   },
-   {
-      marca: 'GM',
-      ano: 2020,
-      cor: 'branco',
-      km: 123.550
-   },
-   {
-      marca: 'Ford',
-      ano: 2010,
-      cor: 'preto',
-      km: 150000
-   },
-   {
-      marca: 'Fiat',
-      ano: 1997,
-      cor: 'branco',
-      km: 280000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2020,
-      cor: 'preto',
-      km: 100000
-   },
-   {
-      marca: 'Ford',
-      ano: 2009,
-      cor: 'cinza',
-      km: 130.450
-   },
-   {
-      marca: 'Ford',
-      ano: 2008,
-      cor: 'vermelho',
-      km: 160.881
-   },
-   {
-      marca: 'GM',
-      ano: 2018,
-      cor: 'preto',
-      km: 190000
-   }
-];
-
-let carroP = carros.filter(function (cP) {
+/* let carroP = carros.filter(function (cP) {
    return cP.cor == 'preto'
 })
-console.log(carroP); */
+console.log(carroP); */ 
+
 
 // Algoritmo 24
-/* let carros = [
-   {
-      marca: 'Volkswagem',
-      ano: 1998,
-      cor: 'vermelho',
-      km: 100000
-   },
-   {
-      marca: 'Fiat',
-      ano: 2015,
-      cor: 'cinza',
-      km: 98000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2012,
-      cor: 'branco',
-      km: 80500
-   },
-   {
-      marca: 'GM',
-      ano: 2020,
-      cor: 'branco',
-      km: 123.550
-   },
-   {
-      marca: 'Ford',
-      ano: 2010,
-      cor: 'preto',
-      km: 150000
-   },
-   {
-      marca: 'Fiat',
-      ano: 1997,
-      cor: 'branco',
-      km: 280000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2020,
-      cor: 'preto',
-      km: 100000
-   },
-   {
-      marca: 'Ford',
-      ano: 2009,
-      cor: 'cinza',
-      km: 130.450
-   },
-   {
-      marca: 'Ford',
-      ano: 2008,
-      cor: 'vermelho',
-      km: 160.881
-   },
-   {
-      marca: 'GM',
-      ano: 2018,
-      cor: 'preto',
-      km: 190000
-   }
-];
-
-let carroA = carros.filter(function(cA){
+/* let carroA = carros.filter(function(cA){
    return cA.ano > 2012
 })
-console.log(carroA); */
+console.log(carroA); */ 
+
 
 // Algoritmo 25
-let carros = [
-   {
-      marca: 'Volkswagem',
-      ano: 1998,
-      cor: 'vermelho',
-      km: 100000
-   },
-   {
-      marca: 'Fiat',
-      ano: 2015,
-      cor: 'cinza',
-      km: 98000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2012,
-      cor: 'branco',
-      km: 80500
-   },
-   {
-      marca: 'GM',
-      ano: 2020,
-      cor: 'branco',
-      km: 123.550
-   },
-   {
-      marca: 'Ford',
-      ano: 2010,
-      cor: 'preto',
-      km: 150000
-   },
-   {
-      marca: 'Fiat',
-      ano: 1997,
-      cor: 'branco',
-      km: 280000
-   },
-   {
-      marca: 'Volkswagem',
-      ano: 2020,
-      cor: 'preto',
-      km: 100000
-   },
-   {
-      marca: 'Ford',
-      ano: 2009,
-      cor: 'cinza',
-      km: 130.450
-   },
-   {
-      marca: 'Ford',
-      ano: 2008,
-      cor: 'vermelho',
-      km: 160.881
-   },
-   {
-      marca: 'GM',
-      ano: 2018,
-      cor: 'preto',
-      km: 190000
-   }
-];
-
-let listaAtl = carros.map(function(carro){
+/* let listaAtl = carros.map(function(carro){
    return {
       marca: carro.marca,
       cor: carro.cor
@@ -503,5 +256,12 @@ let listAno = carros.filter(function(itAno){
    return itAno.ano < 2018
 })
 
-console.log(listAno);
+console.log(listAno); */
 
+
+//Funções 1
+function mostrarCarros(){
+   let listaCarros = carros.filter(carros => carros.marca)
+   console.log(listaCarros);
+}
+mostrarCarros()
