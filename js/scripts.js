@@ -275,8 +275,21 @@ mostrarNomeIdade('Nícolas', 27) */
 
 
 //Funções 3
-function calcular(peso, altura) {
+/* function calcular(peso, altura) {
    let valor = peso / (altura * altura)
    console.log(valor);
 }
-calcular()
+calcular() */
+
+
+//Funções 4
+carros.push(
+   {
+      marca: 'Renault',
+      ano: 2000,
+      cor: 'cinza',
+      km: 200000
+   }
+)
+
+console.log(carros);
