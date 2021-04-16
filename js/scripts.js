@@ -352,7 +352,7 @@ let carroP = carros.filter(function (cP) {
 console.log(carroP); */
 
 // Algoritmo 24
-let carros = [
+/* let carros = [
    {
       marca: 'Volkswagem',
       ano: 1998,
@@ -418,4 +418,77 @@ let carros = [
 let carroA = carros.filter(function(cA){
    return cA.ano > 2012
 })
-console.log(carroA);
+console.log(carroA); */
+
+// Algoritmo 25
+let carros = [
+   {
+      marca: 'Volkswagem',
+      ano: 1998,
+      cor: 'vermelho',
+      km: 100000
+   },
+   {
+      marca: 'Fiat',
+      ano: 2015,
+      cor: 'cinza',
+      km: 98000
+   },
+   {
+      marca: 'Volkswagem',
+      ano: 2012,
+      cor: 'branco',
+      km: 80500
+   },
+   {
+      marca: 'GM',
+      ano: 2020,
+      cor: 'branco',
+      km: 123.550
+   },
+   {
+      marca: 'Ford',
+      ano: 2010,
+      cor: 'preto',
+      km: 150000
+   },
+   {
+      marca: 'Fiat',
+      ano: 1997,
+      cor: 'branco',
+      km: 280000
+   },
+   {
+      marca: 'Volkswagem',
+      ano: 2020,
+      cor: 'preto',
+      km: 100000
+   },
+   {
+      marca: 'Ford',
+      ano: 2009,
+      cor: 'cinza',
+      km: 130.450
+   },
+   {
+      marca: 'Ford',
+      ano: 2008,
+      cor: 'vermelho',
+      km: 160.881
+   },
+   {
+      marca: 'GM',
+      ano: 2018,
+      cor: 'preto',
+      km: 190000
+   }
+];
+
+let listaAtl = carros.map(function(carro){
+   return {
+      marca: carro.marca,
+      cor: carro.cor
+   }
+})
+
+console.log(listaAtl);
