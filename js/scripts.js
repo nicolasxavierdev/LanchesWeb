@@ -136,7 +136,7 @@ carro.forEach(function (tipo) {
 
 
 // Algoritmo 21
- let carros = [
+let carros = [
    {
       marca: 'Volkswagem',
       ano: 1998,
@@ -202,7 +202,7 @@ carro.forEach(function (tipo) {
 /* let logo = carros.filter(function(marca){
    return marca.marca == 'Volkswagem'
 })
-console.log(logo); */ 
+console.log(logo); */
 
 
 // Algoritmo 22
@@ -219,21 +219,21 @@ console.log(fordPreto);
 let carroKm = carros.filter(function (cKm) {
    return cKm.marca == 'Ford' && cKm.km < 160000
 })
-console.log(carroKm); */ 
+console.log(carroKm); */
 
 
 // Algoritmo 23
 /* let carroP = carros.filter(function (cP) {
    return cP.cor == 'preto'
 })
-console.log(carroP); */ 
+console.log(carroP); */
 
 
 // Algoritmo 24
 /* let carroA = carros.filter(function(cA){
    return cA.ano > 2012
 })
-console.log(carroA); */ 
+console.log(carroA); */
 
 
 // Algoritmo 25
@@ -260,8 +260,15 @@ console.log(listAno); */
 
 
 //Funções 1
-function mostrarCarros(marca){
+/* function mostrarCarros(marca) {
    let listaCarros = carros.filter(carros => carros.marca == marca)
    console.log(listaCarros);
 }
-mostrarCarros()
+mostrarCarros() */
+
+
+//Funções 2
+function mostrarNomeIdade(nome, idade){
+   console.log(`Ola! Meu nome é ${nome} e tenho ${idade} anos de idade.`);
+}
+mostrarNomeIdade('Nícolas', 27)
