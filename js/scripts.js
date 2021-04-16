@@ -260,8 +260,8 @@ console.log(listAno); */
 
 
 //Funções 1
-function mostrarCarros(){
-   let listaCarros = carros.filter(carros => carros.marca)
+function mostrarCarros(marca){
+   let listaCarros = carros.filter(carros => carros.marca == marca)
    console.log(listaCarros);
 }
 mostrarCarros()
