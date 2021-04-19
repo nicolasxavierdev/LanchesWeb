@@ -318,7 +318,7 @@ adicionarCarro({
 
 // Função 6
 function calcularMedia(nota1, nota2, nota3, nota4) {
-   let media = (nota1 + nota2 + nota3 + nota4) / calcularMedia.length;
+   let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
    if (media >= 6) {
       console.log(`Média ${media}, parabéns! Aluno aprovado.`);
@@ -329,4 +329,5 @@ function calcularMedia(nota1, nota2, nota3, nota4) {
    }
 }
 
-calcularMedia()
+calcularMedia(5, 6, 6, 7)
+
