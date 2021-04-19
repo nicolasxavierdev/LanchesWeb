@@ -317,7 +317,7 @@ adicionarCarro({
 
 
 // Função 6
-function calcular(nota1, nota2, nota3, nota4){
-   console.log(nota1 + nota2 + nota3 + nota4) / calcular.length;
+function calcularMedia(nota1, nota2, nota3, nota4) {
+   console.log(nota1 + nota2 + nota3 + nota4) / calcularMedia.length;
 }
-calcular()
+calcularMedia()
