@@ -318,6 +318,15 @@ adicionarCarro({
 
 // Função 6
 function calcularMedia(nota1, nota2, nota3, nota4) {
-   console.log(nota1 + nota2 + nota3 + nota4) / calcularMedia.length;
+   let media = (nota1 + nota2 + nota3 + nota4) / calcularMedia.length;
+
+   if (media >= 6) {
+      console.log(`Média ${media}, parabéns! Aluno aprovado.`);
+   } else if (media > 5 && media < 5.9) {
+      console.log(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
+   } else {
+      console.log(`Média ${media}, aluno reprovado.`);
+   }
 }
+
 calcularMedia()
