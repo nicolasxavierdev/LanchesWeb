@@ -136,7 +136,7 @@ carro.forEach(function (tipo) {
 
 
 // Algoritmo 21
-let carros = [
+/* let carros = [
    {
       marca: 'Volkswagem',
       ano: 1998,
@@ -197,7 +197,7 @@ let carros = [
       cor: 'preto',
       km: 190000
    }
-];
+]; */
 
 /* let logo = carros.filter(function(marca){
    return marca.marca == 'Volkswagem'
@@ -298,7 +298,7 @@ adicionarCarro({
 
 
 //Funções 5
-function adicionarCarro(novocarro) {
+/* function adicionarCarro(novocarro) {
    carros = [
       ...carros,
       novocarro
@@ -312,5 +312,12 @@ adicionarCarro({
    ano: 2021,
    cor: 'preto',
    km: 10000
-})
+}) */
 
+
+
+// Função 6
+function calcular(nota1, nota2, nota3, nota4){
+   console.log(nota1 + nota2 + nota3 + nota4) / calcular.length;
+}
+calcular()
