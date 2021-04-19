@@ -317,7 +317,7 @@ adicionarCarro({
 
 
 // Função 6
-function calcularMedia(nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0) {
+/* function calcularMedia(nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0) {
    let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
    if (media >= 6) {
@@ -329,5 +329,48 @@ function calcularMedia(nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0) {
    }
 }
 
-calcularMedia()
+calcularMedia() */
 
+// Função 7
+let frutas = [
+   {
+      nome: 'Morango',
+      preço: 5.00,
+   },
+   {
+      nome: 'Uva',
+      preço: 7.00,
+   },
+   {
+      nome: 'Pera',
+      preço: 2.50,
+   },
+   {
+      nome: 'Maçã',
+      preço: 2.50,
+   },
+   {
+      nome: 'Laranja',
+      preço: 2.50,
+   },
+   {
+      nome: 'Limão',
+      preço: 1.00,
+   },
+   {
+      nome: 'Abacaxi',
+      preço: 3.50,
+   },
+   {
+      nome: 'Melancia',
+      preço: 10.00,
+   },
+   {
+      nome: 'Melão',
+      preço: 4.00,
+   },
+   {
+      nome: 'kiwi',
+      preço: 6.00
+   }
+];
