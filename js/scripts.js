@@ -396,8 +396,15 @@ mostrarFruta('Uva') */
 
 // Função 9
 
-let listaFruta = frutas.filter(function(listF){
+/* let listaFruta = frutas.filter(function(listF){
    return listF.preco < 5.00
+})
+
+console.log(listaFruta);  */
+
+// Função 10
+let listaFruta = frutas.filter(function(listF){
+   return listF.preco > 5.00
 })
 
 console.log(listaFruta); 
