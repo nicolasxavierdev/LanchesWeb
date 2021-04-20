@@ -373,4 +373,16 @@ let frutas = [
       nome: 'kiwi',
       preço: 6.00
    }
-];
+]
+
+// Função 7
+function mostrarFruta(nome){
+   let fruta = frutas.filter((fruta) => {
+      return fruta.nome == nome
+   })
+   
+   let mensagem = `A fruta escolhida foi ${fruta[0].nome} e seu preço é ${fruta[0].preço} reais.`
+
+   console.log(mensagem);
+}
+mostrarFruta('Uva')
