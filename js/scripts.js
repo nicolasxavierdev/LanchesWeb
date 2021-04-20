@@ -389,6 +389,15 @@ mostrarFruta('Uva') */
 
 
 // Função 8
-frutas.forEach(function(fruta){
+/* frutas.forEach(function(fruta){
    console.log(`Fruta ${fruta.nome} custa ${fruta.preco}`);
+}) */
+
+
+// Função 9
+
+let listaFruta = frutas.filter(function(listF){
+   return listF.preco < 5.00
 })
+
+console.log(listaFruta); 
