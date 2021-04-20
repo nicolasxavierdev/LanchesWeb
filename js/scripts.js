@@ -376,7 +376,7 @@ let frutas = [
 ]
 
 // Função 7
-function mostrarFruta(nome){
+/* function mostrarFruta(nome){
    let fruta = frutas.filter((fruta) => {
       return fruta.nome == nome
    })
@@ -385,4 +385,10 @@ function mostrarFruta(nome){
 
    console.log(mensagem);
 }
-mostrarFruta('Uva')
+mostrarFruta('Uva') */
+
+
+// Função 8
+frutas.forEach(function(fruta){
+   console.log(`Fruta ${fruta.nome} custa ${fruta.preco}`);
+})
