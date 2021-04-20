@@ -335,43 +335,43 @@ calcularMedia() */
 let frutas = [
    {
       nome: 'Morango',
-      preço: 5.00,
+      preco: 5.00,
    },
    {
       nome: 'Uva',
-      preço: 7.00,
+      preco: 7.00,
    },
    {
       nome: 'Pera',
-      preço: 2.50,
+      preco: 2.50,
    },
    {
       nome: 'Maçã',
-      preço: 2.50,
+      preco: 2.50,
    },
    {
       nome: 'Laranja',
-      preço: 2.50,
+      preco: 2.50,
    },
    {
       nome: 'Limão',
-      preço: 1.00,
+      preco: 1.00,
    },
    {
       nome: 'Abacaxi',
-      preço: 3.50,
+      preco: 3.50,
    },
    {
       nome: 'Melancia',
-      preço: 10.00,
+      preco: 10.00,
    },
    {
       nome: 'Melão',
-      preço: 4.00,
+      preco: 4.00,
    },
    {
       nome: 'kiwi',
-      preço: 6.00
+      preco: 6.00
    }
 ]
 
@@ -381,7 +381,7 @@ function mostrarFruta(nome){
       return fruta.nome == nome
    })
    
-   let mensagem = `A fruta escolhida foi ${fruta[0].nome} e seu preço é ${fruta[0].preço} reais.`
+   let mensagem = `A fruta escolhida foi ${fruta[0].nome} e seu preço é ${fruta[0].preco} reais.`
 
    console.log(mensagem);
 }
