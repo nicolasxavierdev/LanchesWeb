@@ -332,7 +332,7 @@ adicionarCarro({
 calcularMedia() */
 
 // Função 7
-let frutas = [
+/* let frutas = [
    {
       nome: 'Morango',
       preco: 5.00,
@@ -373,7 +373,7 @@ let frutas = [
       nome: 'kiwi',
       preco: 6.00
    }
-]
+] */
 
 // Função 7
 /* function mostrarFruta(nome){
@@ -417,7 +417,25 @@ alert(`Ola! Meu nome é ${nome}.`) */
 
 // Algoritmo 28
 
-let nome = prompt('Digite seu nome.')
+/* let nome = prompt('Digite seu nome.')
 let sobrenome = prompt('Digite seu sobrenome.')
-alert(`Olá! Meu nome completo é ${nome} ${sobrenome}`)
+alert(`Olá! Meu nome completo é ${nome} ${sobrenome}`) */
+
+
+// Algoritmo 29
+
+let nota1 = parseInt(prompt('Digite a primeira nota.'))
+let nota2 = parseInt(prompt('Digite a segunda nota.'))
+let nota3 = parseInt(prompt('Digite a terceira nota.'))
+let nota4 = parseInt(prompt('Digite a quarta nota.'))
+
+let media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+if (media >= 6){
+ alert(`Média ${media}, parabéns! Aluno aprovado.`);
+}else if(media > 5 && media < 5.9){
+   alert(`Média ${media}, puts! Aluno será encaminhado para conselho de classe`);
+}else{
+   alert(`Média ${media}, aluno reprovado.`);
+}
  
