@@ -412,5 +412,12 @@ console.log(listaFruta); */
 
 // Algoritmo 27
 
+/* let nome = prompt('Digite seu nome.')
+alert(`Ola! Meu nome é ${nome}.`) */
+
+// Algoritmo 28
+
 let nome = prompt('Digite seu nome.')
-alert(`Ola! Meu nome é ${nome}.`)
+let sobrenome = prompt('Digite seu sobrenome.')
+alert(`Olá! Meu nome completo é ${nome} ${sobrenome}`)
+ 
