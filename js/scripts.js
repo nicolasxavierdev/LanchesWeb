@@ -424,7 +424,7 @@ alert(`Olá! Meu nome completo é ${nome} ${sobrenome}`) */
 
 // Algoritmo 29
 
-let nota1 = parseInt(prompt('Digite a primeira nota.'))
+/* let nota1 = parseInt(prompt('Digite a primeira nota.'))
 let nota2 = parseInt(prompt('Digite a segunda nota.'))
 let nota3 = parseInt(prompt('Digite a terceira nota.'))
 let nota4 = parseInt(prompt('Digite a quarta nota.'))
@@ -438,4 +438,4 @@ if (media >= 6){
 }else{
    alert(`Média ${media}, aluno reprovado.`);
 }
- 
+  */
