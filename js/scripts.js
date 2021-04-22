@@ -403,8 +403,14 @@ mostrarFruta('Uva') */
 console.log(listaFruta);  */
 
 // Função 10
-let listaFruta = frutas.filter(function(listF){
+/* let listaFruta = frutas.filter(function(listF){
    return listF.preco > 5.00
 })
 
-console.log(listaFruta); 
+console.log(listaFruta); */ 
+
+
+// Algoritmo 27
+
+let nome = prompt('Digite seu nome.')
+alert(`Ola! Meu nome é ${nome}.`)
