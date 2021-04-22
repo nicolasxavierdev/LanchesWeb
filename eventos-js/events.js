@@ -1,6 +1,6 @@
 // Evento 1
 
-window.addEventListener('load', render)
+ window.addEventListener('load', render)
 
 function render() {
     let botao = document.querySelector('button#enviar')
@@ -9,4 +9,6 @@ function render() {
 
         alert('Botão foi clicado!')
     })
-}
+} 
+
+
