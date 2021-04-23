@@ -17,7 +17,7 @@ function render() {
 window.addEventListener('load', render)
 
 function render() {
-    let botao = document.querySelector('#enviar')
+    let botao = document.querySelector('#adicionar')
 
     botao.addEventListener('click', () => {
 
@@ -45,9 +45,22 @@ function render() {
         alert(agora) */
 
         // Evento 4
-        let iptNome = document.querySelector('#nome').value
+        /* let iptNome = document.querySelector('#nome').value
         let iptSobrenome = document.querySelector('#sobrenome').value  
 
-        alert(`O nome completo do usuario é ${iptNome} ${iptSobrenome}`)
+        alert(`O nome completo do usuario é ${iptNome} ${iptSobrenome}`) */
+
+        // Evevnto 5
+
+        let res = document.querySelector('#resultado')
+
+        let reshtml = `
+            <div>
+                <h1>Título</h1>
+                <p>Parágrafo</p>
+            </div>
+            `
+
+        res.innerHTML = reshtml
     })
 }
