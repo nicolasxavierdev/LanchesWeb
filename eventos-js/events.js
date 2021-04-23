@@ -45,8 +45,8 @@ function render() {
         alert(agora) */
 
         // Evento 4
-        let iptNome = document.querySelector('#nome'). value
-        let iptSobrenome = document.querySelector('#sobrenome'). value  
+        let iptNome = document.querySelector('#nome').value
+        let iptSobrenome = document.querySelector('#sobrenome').value  
 
         alert(`O nome completo do usuario é ${iptNome} ${iptSobrenome}`)
     })
