@@ -65,15 +65,15 @@ function render() {
 
         // Evento 6
 
-        let iptNome = document.querySelector('#nome').value
+        /* let iptNome = document.querySelector('#nome').value
 
         let iptSobrenome = document.querySelector('#sobrenome').value
 
-        document.querySelector('#resultado').innerHTML = `O nome completo do usuario é ${iptNome}  ${iptSobrenome}`  
+        document.querySelector('#resultado').innerHTML = `O nome completo do usuario é ${iptNome}  ${iptSobrenome}`   */
         
 
         // Evento 7
-/* 
+
         let iptNome = document.querySelector('#cNo').value
 
         let iptEmail = document.querySelector('#cEma').value
@@ -82,6 +82,6 @@ function render() {
 
         let iptDTN = document.querySelector('#cDTN').value
 
-        document.querySelector('#resultado').innerHTML = `<strong>Nome</strong>: ${iptNome}, <strong>E-mail</strong>: ${iptEmail}, <strong>CPF</strong>: ${iptCPF}, <strong>Data de nascimento</strong>: ${iptDTN}`   */
+        document.querySelector('#resultado').innerHTML = `<strong>Nome</strong>: ${iptNome}, <strong>E-mail</strong>: ${iptEmail}, <strong>CPF</strong>: ${iptCPF}, <strong>Data de nascimento</strong>: ${iptDTN}`   
     })
 }
