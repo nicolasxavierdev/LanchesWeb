@@ -17,7 +17,7 @@ function render() {
 window.addEventListener('load', render)
 
 function render() {
-    let botao = document.querySelector('#adicionar')
+    let botao = document.querySelector('#enviar')
 
     botao.addEventListener('click', () => {
 
@@ -41,18 +41,18 @@ function render() {
 
         // Evento 3
 
-        /* let agora = new Date()    
+        /*let agora = new Date()
         alert(agora) */
 
         // Evento 4
         /* let iptNome = document.querySelector('#nome').value
         let iptSobrenome = document.querySelector('#sobrenome').value  
 
-        alert(`O nome completo do usuario é ${iptNome} ${iptSobrenome}`) */
+        alert(`O nome completo do usuario é ${iptNome} ${iptSobrenome}`)  */
 
         // Evevnto 5
 
-        let res = document.querySelector('#resultado')
+        /*let res = document.querySelector('#resultado')
 
         let reshtml = `
             <div>
@@ -61,6 +61,27 @@ function render() {
             </div>
             `
 
-        res.innerHTML = reshtml
+        res.innerHTML = reshtml */
+
+        // Evento 6
+
+        let iptNome = document.querySelector('#nome').value
+
+        let iptSobrenome = document.querySelector('#sobrenome').value
+
+        document.querySelector('#resultado').innerHTML = `O nome completo do usuario é ${iptNome}  ${iptSobrenome}`  
+        
+
+        // Evento 7
+/* 
+        let iptNome = document.querySelector('#cNo').value
+
+        let iptEmail = document.querySelector('#cEma').value
+
+        let iptCPF = document.querySelector('#cCpf').value
+
+        let iptDTN = document.querySelector('#cDTN').value
+
+        document.querySelector('#resultado').innerHTML = `<strong>Nome</strong>: ${iptNome}, <strong>E-mail</strong>: ${iptEmail}, <strong>CPF</strong>: ${iptCPF}, <strong>Data de nascimento</strong>: ${iptDTN}`   */
     })
 }
