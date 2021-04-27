@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="scrypts.js"></script>
 </head>
 
 <body>
@@ -35,43 +36,46 @@
         </header>
 
         <main class="content">
-            <div>
-                <h2>Fale Conosco</h2>
-            </div>
+            <form id="form">
+                <div>
+                    <h2>Fale Conosco</h2>
+                </div>
 
-            <div class="campos">
-                <div class="area">
-                    <label>
-                        <strong>Nome</strong>
-                    </label>
-                    <br>
-                    <input type="text" name="nome" required>
+                <div class="campos">
+                    <div class="area">
+                        <label>
+                            <strong>Nome</strong>
+                        </label>
+                        <br>
+                        <input type="text" name="nome" id="cNo" required>
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>E-mail</strong>
+                        </label>
+                        <br>
+                        <input type="e-mail" name="e-mail" id="cEma" required>
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>Assunto</strong>
+                        </label>
+                        <br>
+                        <input type="text" name="assunto" id="cAssunto" required>
+                    </div>
+                    <div class="area">
+                        <label>
+                            <strong>Mensagem</strong>
+                        </label>
+                        <br>
+                        <textarea name="mensagem" id="cMensagem"></textarea>
+                    </div>
+                    <div class="area">
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                    <div id="resultado"></div>
                 </div>
-                <div class="area">
-                    <label>
-                        <strong>E-mail</strong>
-                    </label>
-                    <br>
-                    <input type="e-mail" name="e-mail" required>
-                </div>
-                <div class="area">
-                    <label>
-                        <strong>Assunto</strong>
-                    </label>
-                    <br>
-                    <input type="text" name="assunto" required>
-                </div>
-                <div class="area">
-                    <label>
-                        <strong>Mensagem</strong>
-                    </label>
-                    <br>
-                    <textarea name="mensagem"></textarea>
-                </div>
-                <div class="area">
-                    <button type="submit">ENVIAR</button>
-                </div>
-            </div>
+            </form>
         </main>
 
         <footer class="footer">
