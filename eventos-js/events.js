@@ -70,7 +70,7 @@ function render() {
         let iptSobrenome = document.querySelector('#sobrenome').value
 
         document.querySelector('#resultado').innerHTML = `O nome completo do usuario é ${iptNome}  ${iptSobrenome}`   */
-        
+
 
         // Evento 7
 
@@ -82,6 +82,22 @@ function render() {
 
         let iptDTN = document.querySelector('#cDTN').value
 
-        document.querySelector('#resultado').innerHTML = `<strong>Nome</strong>: ${iptNome}, <strong>E-mail</strong>: ${iptEmail}, <strong>CPF</strong>: ${iptCPF}, <strong>Data de nascimento</strong>: ${iptDTN}`   
+        document.querySelector('#resultado').innerHTML = 
+        `<div>
+            <table border="0" cellpadding="10" cellspasing="10">
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>CPF</th>
+                    <th>Data de Nascimento</th>
+                </tr>
+                <tr>
+                    <td>${iptNome}</td>
+                    <td>${iptEmail}</td>
+                    <td>${ iptCPF }</td>
+                    <td>${iptDTN}</td>
+                </tr>
+            </table>
+        </div>` 
     })
 }
