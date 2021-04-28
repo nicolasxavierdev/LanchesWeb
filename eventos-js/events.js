@@ -14,12 +14,12 @@ function render() {
 
 // Evento 2
 
-window.addEventListener('load', render)
+/* window.addEventListener('load', render)
 
 function render() {
     let botao = document.querySelector('#enviar')
 
-    botao.addEventListener('click', () => {
+    botao.addEventListener('click', () => { */
 
         /*let nota1 = parseInt(prompt('Digite a primeira nota.'))
         let nota2 = parseInt(prompt('Digite a segunda nota.'))
@@ -73,7 +73,7 @@ function render() {
 
 
         // Evento 7
-
+/* 
         let iptNome = document.querySelector('#cNo').value
 
         let iptEmail = document.querySelector('#cEma').value
@@ -100,4 +100,20 @@ function render() {
             </table>
         </div>` 
     })
+} */
+
+//[API]GET 1
+
+window.addEventListener('load', render)
+
+function render() {
+    retornarUsuarios()
+}
+
+async function retornarUsuarios() {
+    let usuarios = await fetch('https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo')
+    let listaDeUsuarios = await usuarios.json()
+    let listaFinalizada = listaDeUsuarios.results
+
+    console.log(listaFinalizada);
 }
