@@ -407,7 +407,7 @@ console.log(listaFruta);  */
    return listF.preco > 5.00
 })
 
-console.log(listaFruta); */ 
+console.log(listaFruta); */
 
 
 // Algoritmo 27
@@ -445,21 +445,35 @@ if (media >= 6){
 window.addEventListener('load', render)
 
 function render() {
-    let form = document.querySelector('#form')
+   let form = document.querySelector('#form')
 
-    form.addEventListener('submit', (e) => {
-        e.preventDefault()
+   form.addEventListener('submit', (e) => {
+      e.preventDefault()
 
-        let iptNome = document.querySelector('#cNo').value
+      let iptNome = document.querySelector('#cNo').value
 
-        let iptEmail = document.querySelector('#cEma').value
+      let iptEmail = document.querySelector('#cEma').value
 
-        let iptAssunto = document.querySelector('#cAssunto').value
+      let iptAssunto = document.querySelector('#cAssunto').value
 
-        let iptMensagem = document.querySelector('#cMensagem').value
+      let iptMensagem = document.querySelector('#cMensagem').value
 
-        document.querySelector('#resultado').innerHTML =
-        `<div>
+      if (iptNome == "") {
+         alert("Informe seu nome.")
+         form.iptNome.focus()
+         return false
+      } else if (iptEmail == "") {
+         alert("Informe seu E-mail.")
+         form.iptEmail.focus()
+         return false
+      } else if (iptAssunto == "") {
+         alert("Informe o assunto.")
+         form.iptAssunto.focus()
+         return false
+      }
+
+      document.querySelector('#resultado').innerHTML =
+         `<div>
             <h2>Dados Enviados</h2>
             <table border="0" cellpadding="10" cellspasing="10">
                 <tr>
@@ -477,5 +491,5 @@ function render() {
             </table>
         </div>`
 
-    })
+   })
 }
