@@ -115,5 +115,9 @@ async function retornarUsuarios() {
     let listaDeUsuarios = await usuarios.json()
     let listaFinalizada = listaDeUsuarios.results
 
-    console.log(listaFinalizada);
+    let masculino = listaFinalizada.filter(usuario => usuario.gender == 'male')
+    let feminino = listaFinalizada.filter(usuario => usuario.gender == 'female')
+
+    console.log(masculino);
+    console.log(feminino);
 }
